@@ -39,14 +39,14 @@ INSERT INTO clientes(nombre, rut, direccion) VALUES
 ('Maria pino', 980, 'el vergel 333');
 
 INSERT INTO categorias(nombre, descripcion) VALUES
-('verduras', 'vienen de la leche'),
-('abarrotes', 'agua de fruta'),
-('bebidas', 'para jugar');
+('abarrotes', 'varios', ),
+('congelados', 'prod.congelados'),
+('art_oficina', 'escritorio');
 
 INSERT INTO productos(nombre, descripcion, valor_unitario, categoria_id) VALUES
 ('cafe', 'descafeinado 200cc', 4300, 1),
 ('arroz integral', 'arroz sano', 1000, 1),
-('teclado','teclado pc', 4000, 3),
+('teclado','teclgiado pc', 4000, 3),
 ('pantalla', 'pantalla pc', 25000, 3),
 ('salmon', 'salmon congelado', 1000, 2),
 ('verduras ', 'verduras congeladas', 850, 2),
